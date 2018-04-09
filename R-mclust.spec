@@ -4,17 +4,13 @@
 #
 Name     : R-mclust
 Version  : 5.4
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/src/contrib/mclust_5.4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/mclust_5.4.tar.gz
 Summary  : Gaussian Mixture Modelling for Model-Based Clustering,
 Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-mclust-lib
-Requires: R-evaluate
-Requires: R-markdown
-BuildRequires : R-evaluate
-BuildRequires : R-markdown
 BuildRequires : clr-R-helpers
 
 %description
@@ -36,11 +32,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1521237009
+export SOURCE_DATE_EPOCH=1523317786
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1521237009
+export SOURCE_DATE_EPOCH=1523317786
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "

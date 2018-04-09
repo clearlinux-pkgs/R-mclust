@@ -1,4 +1,11 @@
 # This file contains recursive sources that require this package
+R-DendSer
+R-clue
+R-dendextend
 R-fpc
+R-mvoutlier
 R-prabclus
+R-robCompositions
+R-rrcov
+R-seriation
 R-tclust
