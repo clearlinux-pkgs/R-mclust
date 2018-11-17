@@ -1,12 +1,8 @@
 # This file contains recursive sources that require this package
-R-DendSer
-R-clue
-R-dendextend
+R-broom
 R-fpc
+R-ks
 R-mvoutlier
-R-phylogram
 R-prabclus
 R-robCompositions
-R-rrcov
-R-seriation
 R-tclust
