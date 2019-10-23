@@ -1,8 +1,6 @@
 # This file contains recursive sources that require this package
-R-broom
 R-fpc
 R-ks
-R-mvoutlier
 R-prabclus
 R-robCompositions
 R-tclust
