@@ -4,7 +4,7 @@
 #
 Name     : R-mclust
 Version  : 5.4.6
-Release  : 33
+Release  : 34
 URL      : https://cran.r-project.org/src/contrib/mclust_5.4.6.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/mclust_5.4.6.tar.gz
 Summary  : Gaussian Mixture Modelling for Model-Based Clustering,
@@ -26,21 +26,22 @@ lib components for the R-mclust package.
 
 %prep
 %setup -q -c -n mclust
+cd %{_builddir}/mclust
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1587063674
+export SOURCE_DATE_EPOCH=1589517681
 
 %install
-export SOURCE_DATE_EPOCH=1587063674
+export SOURCE_DATE_EPOCH=1589517681
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
-export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
+export FCFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
+export FFLAGS="$FFLAGS -O3 -flto -fno-semantic-interposition "
 export CXXFLAGS="$CXXFLAGS -O3 -flto -fno-semantic-interposition "
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
