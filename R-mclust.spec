@@ -4,7 +4,7 @@
 #
 Name     : R-mclust
 Version  : 6.0.0
-Release  : 60
+Release  : 61
 URL      : https://cran.r-project.org/src/contrib/mclust_6.0.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/mclust_6.0.0.tar.gz
 Summary  : Gaussian Mixture Modelling for Model-Based Clustering,
